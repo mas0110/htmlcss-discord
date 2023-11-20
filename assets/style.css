@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 95%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+header{
+    background-color:#3131e8;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+}
+.div{
+    background-color:#3131e8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+}
+
+.white{
+    background-color: #fff;
+}
+.grey{
+    background-color: #f4f4f4;
+}
+
+.ultimo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer ul li{
+    list-style: none;
+
+}
+.lista{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+}
+#asideright{
+    border-radius: 30px;
+}
+nav{
+    background-color: white;
+    height: 30px;
+    width: 500px;
+}
+.parte-iniziale{
+    color: white;
+    background-color: #3131e8;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 80px;
+    
+}
+span{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+}
+#titolo{
+    background: white;
+    width: 400px;
+    height: 80px;
+
+}
+#paragrafo{
+    background: white;
+    width: 550px;
+    height: 100px;
+}
+.pulsante{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+}
+.immagine{
+    width: 400px;
+    height: 300px;
+    background-color: #1f1d32;
+
+}
+.main-testo{
+    width: 350px;
+    height: 300px;
+    border: 20px solid #1f1d32;
+
+}
+.last{
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#last-button{
+    width: 250px;
+height: 50px;
+background-color: white;
+border-radius: 30px;
+background-color:#4549ef;
+margin-bottom: 100px;
+
+}
+footer{
+    background-color: #1b1d20;
+
+
+
+}
+.col{
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    border: 10px solid #1b1d20 ;
+}
+#last-titolo{
+    background: white;
+    width: 400px;
+    height: 80px;
+    margin-top: 50px;
+
+}
+hr{
+    color: red;
+    background: #4549ef;
+    border: 0;
+    height: 3px;
+    margin-top: 20px;
+}
+.logo-fine{
+    width: 120px;
+    height: 50px;
+    background-color: white;
+
+}
+.tasto-fine{
+    width: 120px;
+    height: 50px;
+    background-color: #4549ef;
+    border-radius: 30px;
+
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 30px;
+}
+
+#top{
+    display: flex;
+    justify-content: center;
+    
+
+    
+
+}
