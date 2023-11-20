@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto, sans-serif;
-    font-size:large;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    
 }
 
 .conteiner{
     width: 80%;
     margin:0 auto;
-    padding-bottom: ;
+    
+}
+
+h3{
+    font-size: xxx-large;
+    margin-bottom: 20px;
 }
 
 header nav{
@@ -26,7 +32,7 @@ header nav{
 
 }
  h1{
-    font-size:xxx-large;
+    font-size:xx-large;
     margin-bottom: 20px;
     
 }
@@ -37,13 +43,11 @@ header nav{
     border: none;
     border-radius: 25px;
     height: 50px;
-    width: 350px;
+    width: 300px;
+    
 
 }
-.flex-container{
-    display: flex;
-    justify-content: center;
-}
+
 
 main section{
     text-align: center;
@@ -96,6 +100,7 @@ main{
     display: inline;
     display: flex;
     flex-direction: row;
+    color: white;
 }
 .ultimo{
     display: flex;
@@ -121,17 +126,16 @@ hr{
     height: 3px;
     margin-top: 20px;
 }
-.logo-fine{
-    width: 120px;
-    height: 50px;
-    background-color: white;
 
-}
 .tasto-fine{
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 45px;
     background-color: #4549ef;
     border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
 
 }
 #bottom{
@@ -139,4 +143,35 @@ hr{
     justify-content: space-around;
     padding-block: 30px;
     color: white;
+}
+#last-titolo{
+    margin-top: 50px;
+    margin-inline: 50px;
+    font-size: xx-large;
+    color: #5f72d1;
+}
+footer li:first-child{
+    color: #5f72d1;
+}
+
+#social{
+    color: white;
+    list-style: none;
+display: inline-block;
+}
+#tasto-inizio{
+    width: 100px;
+    height: 45px;
+    background-color:white;
+    border-radius: 30px;
+    background-size: contain;
+    text-decoration: none;
+    color: black;
+    padding-left:20px;
+    padding-top: 10px;
+}
+
+.tasto-scuro{
+     background-color: #1b1d20;
+     color: white;
 }
