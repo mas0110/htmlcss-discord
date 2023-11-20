@@ -24,6 +24,10 @@ header nav{
     justify-content: center;
 }
 
+main section{
+    text-align: center;
+}
+
 nav ul li{
     display: inline;
     list-style: none;
@@ -50,7 +54,6 @@ header{
 #main{
     display: flex;
     flex-direction: column;
-    
     gap: 20px;
 }
 
@@ -59,12 +62,6 @@ header{
 }
 .grey{
     background-color: #f4f4f4;
-}
-
-.ultimo{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 footer ul li{
     list-style: none;
@@ -95,32 +92,6 @@ span{
     height: 50px;
     background-color: white;
     border-radius: 30px;
-}
-.immagine{
-    width: 400px;
-    height: 300px;
-    background-color: #1f1d32;
-
-}
-.main-testo{
-    width: 350px;
-    height: 300px;
-    border: 20px solid #1f1d32;
-
-}
-.last{
-    width: 700px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-#last-button{
-    width: 250px;
-height: 50px;
-background-color: white;
-border-radius: 30px;
-background-color:#4549ef;
-margin-bottom: 100px;
-
 }
 footer{
     background-color: #1b1d20;
