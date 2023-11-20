@@ -134,6 +134,7 @@ hr{
 }
 #bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-block: 30px;
+    color: white;
 }
