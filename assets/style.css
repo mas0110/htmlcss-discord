@@ -18,6 +18,14 @@ header nav{
     text-align: center;
     margin: 50px auto 0 auto;
     width: 60%;
+    color: white;
+}
+
+.octa-buttons{
+    background-color: white;
+    color:black;
+    border: none;
+    border-radius: 10px;
 }
 .flex-container{
     display: flex;
@@ -31,12 +39,17 @@ main section{
 nav ul li{
     display: inline;
     list-style: none;
+    color: white;
 }
 header{
-    background-color:#3131e8;
+    background-image: url(./img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
     display: flex;
     justify-content: space-evenly;
     padding-top: 30px;
+    height: 500px;
+    
     
 }
 .div{
@@ -86,13 +99,7 @@ span{
     height: 20px;
     background-color: white;
 }
-}
-.pulsante{
-    width: 200px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-}
+
 footer{
     background-color: #1b1d20;
 
