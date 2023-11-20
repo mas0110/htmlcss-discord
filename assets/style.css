@@ -2,8 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 95%;
-    margin: 0 auto;
+}
+
+.conteiner{
+    width: 80%;
+    margin:0 auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cta{
+    text-align: center;
+    margin: 50px auto 0 auto;
+    width: 60%;
 }
 .flex-container{
     display: flex;
@@ -61,20 +75,6 @@ footer ul li{
     display: flex;
     flex-direction: row;
 }
-
-aside{
-    width: 120px;
-    height: 50px;
-    background-color: white;
-}
-#asideright{
-    border-radius: 30px;
-}
-nav{
-    background-color: white;
-    height: 30px;
-    width: 500px;
-}
 .parte-iniziale{
     color: white;
     background-color: #3131e8;
@@ -89,16 +89,6 @@ span{
     height: 20px;
     background-color: white;
 }
-#titolo{
-    background: white;
-    width: 400px;
-    height: 80px;
-
-}
-#paragrafo{
-    background: white;
-    width: 550px;
-    height: 100px;
 }
 .pulsante{
     width: 200px;
@@ -175,13 +165,4 @@ hr{
     display: flex;
     justify-content: space-between;
     padding-block: 30px;
-}
-
-#top{
-    display: flex;
-    justify-content: center;
-    
-
-    
-
 }
